@@ -7,10 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/dromo_main.css">
+    <link rel="stylesheet" href="../assets/css/dromo_blog.css">
     <link rel="icon" href="../assets/img/dromo_guy.svg">
   </head>
     <body>
-        <nav class="navbar sticky-top navbar-expand-lg bg-white mb-5">
+        <nav class="navbar sticky-top navbar-expand-lg bg-white p-4 mb-5">
 			<div class="container">
 				<a class="navbar-brand" href="../index.html">
 					<img src="../assets/img/dromo_logo.png" alt="Logo" width="100" height=auto>
@@ -42,56 +43,124 @@
 			  </div>
 			</div>
 		  </nav>
-        <br>
-        <div class="container">
-
-        
-        <h1>Dromo Blog: Your Travel Inspiration Hub</h1>
-       
-        <br>
-        <h2>Blog 1: Unveiling the Hidden Gems of Vietnam!</h2>
-        <p>In this exciting blog series, we at Dromo unveil the hidden gems of captivating destinations around the world.</p>
-        <p>Today, we whisk you away to Vietnam, a place brimming with cultural treasures, breathtaking scenery, and unique experiences waiting to be discovered.</p>
-            <h3>Beyond the popular tourist spots, we'll delve into:</h3>
-                <ul>
-                  <li>Secret waterfalls: Cascading down lush rainforests, offering a refreshing escape and stunning photo opportunities.</li>
-                  <li>Charming villages: Untouched by time, showcasing the authentic culture and warm hospitality of the locals.</li>
-                  <li>Off-the-beaten-path adventures: From spelunking in hidden caves to kayaking through secluded mangroves, discover the thrill of the unknown.</li>
-                </ul>
-            <p>So, pack your bags and join us on an unforgettable adventure to the hidden gems of [Destination Name]. Stay tuned for our next blog post, where we'll explore another captivating corner of the world!</p>
-        <br> 
-        <h2>Blog 2: Sustainable Travel: Making a Difference with Every Journey</h2>
-            <p>At Dromo, we believe travel has the power to broaden horizons and connect us to diverse cultures. However, it's crucial to be mindful of our environmental impact while exploring the world.</p>
-            <p>In this blog post, we'll share tips on how to travel sustainably and make a positive difference:<p>
-                <h3>Choose eco-friendly accommodations:</h3>
-                    <p>Opt for hotels and resorts committed to sustainable practices, such as water conservation and energy efficiency.</p>
-                <h3>Embrace local transportation:</h3>
-                    <p>Minimize your carbon footprint by using public transportation, cycling, or walking whenever possible.</p>
-                <h3>Support local communities:</h3>
-                    <p>Shop at local markets, patronize family-owned businesses, and participate in responsible tourism initiatives that benefit the community.</p>
-                <h3>Pack light:</h3>
-                    <p>Reduce your luggage weight to lessen the environmental impact of your flight.</p>
-                <h3>Respect the environment:</h3>
-                    <p>Be mindful of your surroundings, dispose of waste responsibly, and avoid harming delicate ecosystems.</p>
-            <p>By making conscious choices, we can all contribute to a more sustainable future for travel and the destinations we cherish.</p>
-  
-        <br> 
-        <h2>Blog 3: Travel Photography Tips: Capture Memories that Last a Lifetime</h2>
-            <p>Traveling allows us to experience the world's wonders firsthand. But how do you capture the essence of your adventures in stunning photographs?</p>
-            <p>In this blog post, we share some travel photography tips to elevate your skills and create lasting memories:</p>
-                <h3>Embrace natural light:</h3>
-                    <p>Utilize the golden hour (sunrise and sunset) for warm, flattering photos.</p>
-                <h3>Compose thoughtfully:</h3>
-                    <p>Pay attention to the rule of thirds and leading lines to create visually pleasing compositions.</p>
-                <h3>Tell a story:</h3>
-                    <p>Go beyond basic snapshots; capture the emotions, interactions, and cultural nuances that make your journey unique.</p>
-                <h3>Experiment with angles:</h3>
-                    <p>Get creative! Try different perspectives to add depth and interest to your photos.</p>
-                <h3>Edit mindfully:</h3>
-                    <p>Enhance your photos without overdoing it. Use editing tools to adjust lighting, color balance, and sharpness subtly.</p>
-            <p>With these tips and practice, you'll be well on your way to capturing the magic of your travels and sharing them with the world.</p>
-            <p>Stay tuned for more inspiring and informative blog posts from Dromo!</p>
+      <div class="container mb-5">
+        <h1 class="text-center m-auto" style="font-size: 4em;">Dromo Blog</h1>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <!-- Side widgets-->
+          <div class="col-lg-4">
+            <!-- Search widget-->
+            <div class="card mb-4">
+                  <div class="card-header">Search</div>
+                  <div class="card-body">
+                      <div class="input-group">
+                          <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                          <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                      </div>
+                  </div>
+            </div>
+              <!-- Categories widget-->
+              <div class="card mb-4">
+                  <div class="card-header">Categories</div>
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-sm-6">
+                              <ul class="list-unstyled mb-0">
+                                  <li><a href="#!">Web Design</a></li>
+                                  <li><a href="#!">HTML</a></li>
+                                  <li><a href="#!">Freebies</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-sm-6">
+                              <ul class="list-unstyled mb-0">
+                                  <li><a href="#!">JavaScript</a></li>
+                                  <li><a href="#!">CSS</a></li>
+                                  <li><a href="#!">Tutorials</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Side widget-->
+          </div>
+            <!-- Blog entries-->
+            <div class="col-lg-8">
+                <!-- Featured blog post-->
+                <div class="card mb-4">
+                    <a href="#!"><img class="card-img-top" src="../assets/img/places/vietnam.jpg" alt="..." /></a>
+                    <div class="card-body">
+                        <div class="small text-muted">January 1, 2024</div>
+                        <h2 class="card-title"><strong style="color:#F7AEC4; font-weight: 600;">Ha Long Bay</strong>: Hidden Gems of Vietnam!</h2>
+                        <p class="card-text">In this exciting blog series, we at Dromo unveil the hidden gems of captivating destinations around the world. Today, we whisk you away to Vietnam, a place brimming with cultural treasures, breathtaking scenery, and unique experiences waiting to be discovered.</p>
+                        <a class="btn btn-primary" href="#!">Read more →</a>
+                    </div>
+                </div>
+                <!-- Nested row for non-featured blog posts-->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="../assets/img/travel.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">August 8, 2023</div>
+                                <h2 class="card-title h4"><strong style="color:#F7AEC4; font-weight: 600;">Sustainable Travel</strong>: Making a Difference with Every Journey</h2>
+                                <p class="card-text">At Dromo, we believe travel has the power to broaden horizons and connect us to diverse cultures. However, it's crucial to be mindful of our environmental impact while exploring the world.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="../assets/img/travel_phototaking.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">May 27, 2023</div>
+                                <h2 class="card-title h4"><strong style="color:#F7AEC4; font-weight: 600;">Travel Photography Tips</strong>: Capture Memories that Last a Lifetime</h2>
+                                <p class="card-text">Traveling allows us to experience the world's wonders firsthand. But how do you capture the essence of your adventures in stunning photographs?</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="../assets/img/travel_europe.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">January 20, 2023</div>
+                                <h2 class="card-title h4">The <strong style="color:#F7AEC4; font-weight: 600;">Quirky Traveler's Guide</strong> to Europe</h2>
+                                <p class="card-text">Tired of the Eiffel Tower crowds? Do your taste buds crave something beyond croissants? This guide is for you, the intrepid explorer with a penchant for the peculiar. We're ditching the tourist traps and diving into Europe's hidden gems!</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="../assets/img/travel_asianfood.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">March 9, 2022</div>
+                                <h2 class="card-title h4"><strong style="color:#F7AEC4; font-weight: 600;">Foodie Paradise</strong>: Asia's Culinary Secrets</h2>
+                                <p class="card-text">Asia is a feast for the senses, and the food scene takes center stage. Forget fancy restaurants – let's explore the vibrant street food stalls and hidden alleyway gems.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination-->
+                <nav>
+                    <ul class="pagination justify-content-center my-4">
+                        <li class="page-item"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
+                        <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
         </div>
+    </div>
+        
 <footer class="text-center text-lg-start" style="background: rgb(88,98,172);
     background: linear-gradient(90deg, rgba(88,98,172,0.2) 0%, rgba(247,174,196,0.4) 100%);">
 

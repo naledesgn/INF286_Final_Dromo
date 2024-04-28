@@ -1,0 +1,21 @@
+.page-link{
+    color: #5862AC ;
+}
+.active{
+    background: #F7AEC4 !important;
+}
+.active>.page-link{
+    background-color: #F7AEC4;
+    color: white;
+    border-color: #5862AC;
+}
+.card-header{
+    background-color: #F7AEC4;
+    color: #5862AC
+}
+.search-bar{
+    position: sticky;
+    top: 100em;
+    margin-top: 2em;
+    z-index: 3;
+}

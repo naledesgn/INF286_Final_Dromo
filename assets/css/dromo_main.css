@@ -70,33 +70,65 @@ h1{
 .navbar-nav{
     color: #5862AC !important;
 }
+.navbar:hover {
+    color: #F7AEC4;
+
+}
+.navbar:active {
+    color: #5862AC;
+
+}
 
 .navbar-nav > li{
     justify-content: space-around;
     margin: 1.2em;
 }
+.nav-link{
+    color: #5862AC;
+}
+.nav-link:hover{
+    color: #F7AEC4;
+}
+.nav-link:active{
+    color: #5862AC;
+}
+.dropdown{
+    color: #5862AC !important;
+}
+.dropdown-toggle{
+    color: #5862AC !important;
+}
+.dropdown-toggle:active{
+    color: #5862AC !important;
+}
 .dropdown-menu li{
     justify-content: space-around;
     margin: 1em;
  }
+.dropdown-item{
+    color: #5862AC;
+}
 .dropdown-item:active{
    background-color: #F7AEC4 !important;
    color: #5862AC;
 }
 .navbar{
-   color: #4b5391;
+   color: #5862AC;
 }
-
+/*Card*/
 .card img{
     object-fit: cover;
     width: 100%;
     height: 20em;
 }
+.card-title{
+    color: #5862AC;
+}
 
 /*Footer*/
 .form-outline{
     border-radius: 2em;
-    border-color: #4b5391;
+    border-color: #5862AC;
 }
 .form-control{
     border-radius: 2em;
