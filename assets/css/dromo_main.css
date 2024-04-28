@@ -108,6 +108,9 @@ h1{
 .dropdown-item{
     color: #5862AC;
 }
+.dropdown-item:hover{
+    color: #5862AC;
+}
 .dropdown-item:active{
    background-color: #F7AEC4 !important;
    color: #5862AC;
