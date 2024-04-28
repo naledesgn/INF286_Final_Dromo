@@ -95,11 +95,11 @@ h1{
 
 /*Footer*/
 .form-outline{
-    border-radius: 3em;
+    border-radius: 2em;
     border-color: #4b5391;
 }
 .form-control{
-    border-radius: 3em;
+    border-radius: 2em;
     color: #5862AC;
 }
 
